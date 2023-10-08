@@ -3,7 +3,7 @@ A linux kernel module that measures the time(in seconds) since it was loaded. Th
 
 COMMANDS(or as root):
 
-$ sudo insmod time.c
+$ sudo insmod time.ko
 $ sudo dmesg -c
 $ dmesg
 $ cat /proc/time
